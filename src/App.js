@@ -2,7 +2,7 @@
 import './App.css';
 import Search from './components/search/Search';
 import Currentweather from './components/search/currentWeather/Currentweather';
-import { useState } from 'react';
+import { useState , useEffect} from 'react';
 import Background from './components/search/Background';
 import Forecast from './components/forecast/Forecast';
 
@@ -45,3 +45,4 @@ setforecast({city : searchData.label , ...forecastResponse});
 }
 
 export default App;
+
